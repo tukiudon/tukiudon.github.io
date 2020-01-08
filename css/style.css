@@ -1,4 +1,111 @@
 /*メイン*/
+@media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+#menu-bg {
+body{
+    width: 400px;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #dded00;
+
+}
+.tophed {
+    width: 350px;
+    font-family: "Nico Moji";
+    color: #666666;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 120px;
+    text-align: center;
+    border-bottom: dotted 13px #FFFFFF;
+    margin-top: 70px;
+}
+
+
+/*トップ画面始めるボタン*/
+
+.start {
+    width: 200px;
+    line-height: 180px;
+    font-family: "Nico Moji";
+    font-size: 80px;
+    color: #696969;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #FFFFFF;
+    border-radius: 40px;
+    margin-top: 100px;
+}
+
+
+/*トップ画面復習ボタン*/
+
+.review {
+    width: 200px;
+    line-height: 180px;
+    font-family: "Nico Moji";
+    font-size: 80px;
+    color: #696969;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #FFFFFF;
+    border-radius: 40px;
+    margin-top: 20px;
+}
+
+
+/*トップ画面ボタンモーション*/
+
+.btn-flat-border {
+    text-decoration: none;
+}
+
+.btn-flat-border div:hover {
+    background: #6b8e23;
+    color: white;
+    transition: .4s;
+}
+
+
+/*クイズ画面ベースのデザイン*/
+
+#base {
+    width: 350px;
+    height: auto;
+    background-color: #FFFFFF;
+    margin-top: 5px;
+    border-radius: 40px;
+    margin-right: auto;
+margin-left : auto;
+}
+
+
+/*クイズ画面上部問題数デザイン*/
+
+#question {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 15px;
+    margin-bottom: 0px;
+}
+
+
+/*クイズ画面問題文*/
+
+#sent {
+    text-align:center;
+    height: 100%;
+    font-size: 20px;
+    margin: 10px 20px 30px 20px;
+}
+#sent img{
+    height: 100%;
+}
+}
+}
+
 body {
     width: 750px;
     height: 100%;
@@ -106,30 +213,33 @@ margin-left : auto;
 /*クイズ画面問題文*/
 
 #sent {
+    text-align:center;
     height: 100%;
     font-size: 20px;
     margin: 10px 20px 30px 20px;
 }
 #sent img{
-    height: 400px;
+    height: 100%;
+}
+
+
+#prev{
+float: left;
+width: 13%;
+margin-left: 160px;
+margin-top: -0px;
 }
 
 #next{
 float: left;
-width: 8%;
+width: 13%;;
 
-}
-
-#prev{
-float: left;
-width: 8%;
-margin-left: 190px;
 }
 
 #page{
 float: left;
 text-align: center;
-font-size: 35px;
+font-size: 50px;
 margin: 0px 10px;
 }
 
@@ -193,7 +303,7 @@ margin: 40% auto;
 }
 
 .modal-body{
-    height:50px;
+    height:auto;
 }
 
 .modal-sentense{
@@ -228,6 +338,7 @@ margin: 40% auto;
     margin-top: 0px;
     padding-bottom: 15px;
     font-size: 30px;
+    
 }
 
 #list,
