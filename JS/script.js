@@ -281,7 +281,7 @@ var s,t,u;
  var twi= document.getElementById("tweet");
  var url = "https://note.mu/ugok_girls";
   
-twi.innerHTML = "<a href='https://tukiudon.github.io/share?url=" + url + "&text=わたしのスコアは"　+ result +  "点です&hashtags=りてらしーこれくしょん'>" + "<span id ='tweet__square'><i class= 'fab fa-twitter'></i></span> 結果をツイートする</a>";
+twi.innerHTML = "<a href='https://tukiudon.github.io/index.htmlshare?url=" + url + "&text=わたしのスコアは"　+ result +  "点です&hashtags=りてらしーこれくしょん'>" + "<span id ='tweet__square'><i class= 'fab fa-twitter'></i></span> 結果をツイートする</a>";
         };
     };
 
