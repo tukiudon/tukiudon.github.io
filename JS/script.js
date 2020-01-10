@@ -85,6 +85,8 @@ var hint = document.getElementById('hint');
 
 var modal = document.getElementById('modal');
 
+var modalclose = document.getElementById('close');
+
 var top_jump = document.getElementById('top_jump');
 
 modal.style.display = 'none';
@@ -163,7 +165,11 @@ hint.onclick = function(){
 window.addEventListener('click', function(e) {
   if (e.target == modal) {
     modal.style.display = 'none';
-  }
+  };
+modalclose.addEventListener('click', function() {
+    modal.style.display = 'none';
+  });
+
 });
 
 /*選択肢作成*/
