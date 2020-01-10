@@ -250,6 +250,7 @@ margin: 40% auto;
 #lis_s {
     white-space:normal;
     width:340px;
+    height: 50px;
     color: black;
     font-size: 13px;
     font-weight: 400;
@@ -301,6 +302,7 @@ margin: 40% auto;
 #lis_answer{
     white-space:normal;
     width:340px;
+    height: 50px;
     color: black;
     font-size: 13px;
     font-weight: 400;
