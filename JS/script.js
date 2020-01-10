@@ -29,7 +29,7 @@ sentence[2] = [
 "<img src='img/explanation2.png'>",
 "不正解。",
 "正解。法律違反として名誉棄損で刑事告訴される可能性があります。",
-"不正解。"]
+"不正解。"];
 sentence[3] = [
 ["<img src='img/20200110_mondai4.png'>"],
 "①10歳",
@@ -191,6 +191,8 @@ next.style.display = 'none';
 prev.style.display = 'none';
 page.textContent =　1 + '/' + sentence[cur][0].length;
 sent.innerHTML = sentence[cur][0][0];
+
+window.scrollTo(0,0);
     
 var s,t,u; 
     //答え合わせ
@@ -234,8 +236,8 @@ var s,t,u;
     }*/
 
     }
-    sent.innerHTML = s;
     
+    sent.innerHTML = s;
     
     //sent.textContent = sentence[cur][5];
 
