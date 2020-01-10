@@ -31,7 +31,7 @@ sentence[2] = [
 "正解。法律違反として名誉棄損で刑事告訴される可能性があります。",
 "不正解。"]
 sentence[3] = [
-["<img src='img/20191218_mondai4.PNG'>"],
+["<img src='img/20191218_mondai4.png'>"],
 "①10歳",
 "②13歳",
 "③16歳",
@@ -41,7 +41,7 @@ sentence[3] = [
 "正解。17歳未満の場合でも、iOS機能でアプリの年齢制限をかけていると使用できない場合があります。",
 "不正解。"];
 sentence[4] = [
-["<img src='img/20191218_mondai6_1.PNG'>","<img src='img/20191218_mondai6_2.PNG'>","<img src='img/20191218_mondai6_3.PNG'>"],
+["<img src='img/20191218_mondai6_1.png'>","<img src='img/20191218_mondai6_2.png'>","<img src='img/20191218_mondai6_3.png'>"],
 "①個人情報保護法",
 "②著作権、肖像権の侵害",
 "③肖像権の侵害",
@@ -279,9 +279,9 @@ var s,t,u;
             saveData();
             
  var twi= document.getElementById("tweet");
- var url = "https://note.mu/ugok_girls";
+ var url = "https://tukiudon.github.io/index.html";
   
-twi.innerHTML = "<a href='https://tukiudon.github.io/share?url=" + url + "&text=わたしのスコアは"　+ result +  "点です&hashtags=りてらしーこれくしょん'>" + "<span id ='tweet__square'><i class= 'fab fa-twitter'></i></span> 結果をツイートする</a>";
+twi.innerHTML = "<a href='http://twitter.com/share?url=" + url + "&text=わたしのスコアは"　+ result +  "点です&hashtags=りてらしーこれくしょん'>" + "<span id ='tweet__square'><i class= 'fab fa-twitter'></i></span> 結果をツイートする</a>";
         };
     };
 
