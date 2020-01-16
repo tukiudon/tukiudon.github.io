@@ -1,6 +1,6 @@
 /*問題文配列*/
 var sentence = new Array();
-sentence[0] = [ ["<img src='img/20200110_mondai1_1.png'>","<img src='img/20200110_mondai1_2.png'>","<img src='img/20200110_mondai1_3.png'>"],
+sentence[0] = [ ["<img src='img/20200115_mondai1_1.png'>","<img src='img/20200115_mondai1_2.png'>","<img src='img/20200115_mondai1_3.png'>"],
 "①そのままAちゃんと会話をして乗っ取り詐欺か確かめる",
 "②電話やメールなどLINE以外の手段でこのことを聞く",
 "③気になったが、深く考えずプリペイドカードを買って写真を送る",/*解答*/
@@ -10,7 +10,7 @@ sentence[0] = [ ["<img src='img/20200110_mondai1_1.png'>","<img src='img/2020011
 "正解。LINE以外の連絡手段がとれる場合はそちらできちんと聞きましょう。また、可能であれば一時的にブロックをしておくと安全です。",
 "不正解。１番やってはいけない行為です。詐欺の被害にあってしまいます。"];
 sentence[1] = [
- ["<img src='img/20200110_mondai3_1.png'>","<img src='img/20200110_mondai3_2.png'>"],
+ ["<img src='img/20200115_mondai2_1.png'>","<img src='img/20200115_mondai2_2.png'>"],
 "①メッセージを無視する",
 "②一度○△銀行にメールなどで問い合わせをし、本当かどうか聞く",
 "③使えないと困るのでURLから飛んで、口座再開の手続きをする",
@@ -20,7 +20,7 @@ sentence[1] = [
 "不正解。",
 "正解。本来銀行の暗証番号などが必要になることをSMSなどで聞いてくることはありえません。"];
 sentence[2] = [
-["<img src='img/20200110_mondai5.png'>"]
+["<img src='img/20200115_mondai4.png'>"]
  ,
 "①匿名性が高く、Dちゃんが書いたとバレない",
 "②ネット上で他人を誹謗中傷する行為は、犯罪に当たる場合が多い",
@@ -31,7 +31,7 @@ sentence[2] = [
 "正解。法律違反として名誉棄損で刑事告訴される可能性があります。",
 "不正解。"];
 sentence[3] = [
-["<img src='img/20200110_mondai4.png'>"],
+["<img src='img/20200115_mondai3.png'>"],
 "①10歳",
 "②13歳",
 "③16歳",
@@ -41,7 +41,7 @@ sentence[3] = [
 "正解。17歳未満の場合でも、iOS機能でアプリの年齢制限をかけていると使用できない場合があります。",
 "不正解。"];
 sentence[4] = [
-["<img src='img/20200110_mondai6_1.png'>","<img src='img/20200110_mondai6_2.png'>","<img src='img/20200110_mondai6_3.png'>"],
+["<img src='img/20200115_mondai5_1.png'>","<img src='img/20200115_mondai5_2.png'>","<img src='img/20200115_mondai5_3.png'>","<img src='img/20200115_mondai5_4.png'>","<img src='img/20200115_mondai5_5.png'>"],
 "①個人情報保護法",
 "②著作権、肖像権の侵害",
 "③肖像権の侵害",
