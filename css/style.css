@@ -1,9 +1,9 @@
 /*メイン*/
-@media screen and (max-width: 499px) { 
+@media screen and (max-width: 450px) { 
 body{
     width: 400px;
     height: 100%;
-    margin: 0 auto;
+    margin: 0;
     background-color: #dded00;
 
 }
