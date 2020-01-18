@@ -45,7 +45,7 @@ sentence[4] = [
 "①個人情報保護法",
 "②著作権、肖像権の侵害",
 "③肖像権の侵害",
-2,
+3,
 "<img src='img/explanation4.png'>",
 "不正解。個人情報保護委員会より個人情報を扱うすべての「事業者」に対して個人情報の取り扱いルールを定めたものなので今回は関係がない。「事業者」には、法人に限らず、マンションの管理組合、NPO 法人、自治会や同窓会などの非営利組織も含まれます。 ",
 "不正解。思想又は感情を創作的に表現したものであって、文芸、学術、美術又は音楽の範囲に属するものをいう。 要約するとオリジナルでなにか作ったもの全般のことを言います。今回の写真にも著作権存在がする「可能性」があります。しかしその写真をOB以外の他者が利用したことによるトラブルではないため侵害したことにはならない。",
@@ -89,6 +89,8 @@ var modalclose = document.getElementById('close');
 
 var top_jump = document.getElementById('top_jump');
 
+var quizcur = document.getElementById('quizcur');
+
 modal.style.display = 'none';
 
 /*問題をランダムに並べる*/
@@ -121,8 +123,7 @@ rclic.style.visibility = "hidden";//次の問題へボタン非表示
 
 /*全体クイズ表示関数*/
 function quiz() {
-que.textContent = (cur + 1) + ' / ' + sentence.length + " 問 ";//現在の問題数表示
-
+que.innerHTML = (cur + 1) + ' / ' + sentence.length + " 問 ";//現在の問題数表示
     
 sent.innerHTML = sentence[cur][0][0];//問題文表示
 
@@ -130,11 +131,12 @@ sent.innerHTML = sentence[cur][0][0];//問題文表示
 page.style.display = 'block';
 next.style.display = 'block';
 prev.style.display = 'block';
-
+quizcur.style.display = 'block';
 
 /*問題文のページ処理関数*/
 var pageNum = function () {
  page.textContent =　(count + 1) + ' / ' + sentence[cur][0].length;//問題文のページ数表示
+quizcur.innerHTML = "問題文は全部で"+　sentence[cur][0].length　+"ページあります";
 }
 
 var changeimage = function (num) {
@@ -189,6 +191,7 @@ function anser(num) {
 page.style.display = 'none';
 next.style.display = 'none';
 prev.style.display = 'none';
+quizcur.style.display = 'none';
 page.textContent =　1 + '/' + sentence[cur][0].length;
 sent.innerHTML = sentence[cur][0][0];
 
